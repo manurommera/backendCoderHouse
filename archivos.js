@@ -68,7 +68,7 @@ class Contenedor {
 
   }
   
-  /** Borra todos los elementos */
+  
   async deleteAll() {
     try {
       await fs.promises.writeFile(this.filename, '[]')
